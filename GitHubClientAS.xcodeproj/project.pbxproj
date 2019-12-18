@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62443411236F6EF7007E1135 /* BeyondUsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62443410236F6EF7007E1135 /* BeyondUsersViewModel.swift */; };
 		62579FA9236206FC0064BF2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62579FA8236206FC0064BF2E /* AppDelegate.swift */; };
 		62579FAB236206FC0064BF2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62579FAA236206FC0064BF2E /* SceneDelegate.swift */; };
-		62579FAD236206FC0064BF2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62579FAC236206FC0064BF2E /* ViewController.swift */; };
 		62579FB0236206FC0064BF2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62579FAE236206FC0064BF2E /* Main.storyboard */; };
 		62579FB2236206FD0064BF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62579FB1236206FD0064BF2E /* Assets.xcassets */; };
 		62579FB5236206FD0064BF2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62579FB3236206FD0064BF2E /* LaunchScreen.storyboard */; };
+		62579FC6236209980064BF2E /* BeyondUsers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62579FC5236209980064BF2E /* BeyondUsers.plist */; };
+		62579FC8236209E60064BF2E /* BeyondUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62579FC7236209E60064BF2E /* BeyondUser.swift */; };
+		62579FCA23620E9D0064BF2E /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62579FC923620E9D0064BF2E /* UsersTableViewController.swift */; };
+		62B713FD236912CD003C8B39 /* BeyondUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B713FC236912CD003C8B39 /* BeyondUserTableViewCell.swift */; };
+		62F5AD22238EA2FF00E2A424 /* UserDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AD21238EA2FF00E2A424 /* UserDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		62579FA5236206FC0064BF2E /* GitHubClientAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubClientAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62443410236F6EF7007E1135 /* BeyondUsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondUsersViewModel.swift; sourceTree = "<group>"; };
+		62579FA5236206FC0064BF2E /* GitHubClientAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubClientAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62579FA8236206FC0064BF2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62579FAA236206FC0064BF2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		62579FAC236206FC0064BF2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62579FAF236206FC0064BF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62579FB1236206FD0064BF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62579FB4236206FD0064BF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62579FB6236206FD0064BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62579FC5236209980064BF2E /* BeyondUsers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BeyondUsers.plist; sourceTree = "<group>"; };
+		62579FC7236209E60064BF2E /* BeyondUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondUser.swift; sourceTree = "<group>"; };
+		62579FC923620E9D0064BF2E /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		62B713FC236912CD003C8B39 /* BeyondUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondUserTableViewCell.swift; sourceTree = "<group>"; };
+		62F5AD21238EA2FF00E2A424 /* UserDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +50,7 @@
 		62579F9C236206FC0064BF2E = {
 			isa = PBXGroup;
 			children = (
-				62579FA7236206FC0064BF2E /* GitHubClientAG */,
+				62579FA7236206FC0064BF2E /* GitHubClientAS */,
 				62579FA6236206FC0064BF2E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +58,100 @@
 		62579FA6236206FC0064BF2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62579FA5236206FC0064BF2E /* GitHubClientAG.app */,
+				62579FA5236206FC0064BF2E /* GitHubClientAS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62579FA7236206FC0064BF2E /* GitHubClientAG */ = {
+		62579FA7236206FC0064BF2E /* GitHubClientAS */ = {
+			isa = PBXGroup;
+			children = (
+				62579FBD236207450064BF2E /* Classes */,
+				62579FC4236208100064BF2E /* Supporting Files */,
+			);
+			path = GitHubClientAS;
+			sourceTree = "<group>";
+		};
+		62579FBD236207450064BF2E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				62579FA8236206FC0064BF2E /* AppDelegate.swift */,
 				62579FAA236206FC0064BF2E /* SceneDelegate.swift */,
-				62579FAC236206FC0064BF2E /* ViewController.swift */,
+				62579FC22362077B0064BF2E /* Extension */,
+				62579FBF236207580064BF2E /* Models */,
+				62579FC1236207750064BF2E /* Utilities */,
+				62579FBE236207510064BF2E /* ViewControllers */,
+				62579FC02362075D0064BF2E /* ViewModels */,
+				62579FC3236207810064BF2E /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		62579FBE236207510064BF2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62579FC923620E9D0064BF2E /* UsersTableViewController.swift */,
+				62F5AD21238EA2FF00E2A424 /* UserDetailTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		62579FBF236207580064BF2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62579FC7236209E60064BF2E /* BeyondUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62579FC02362075D0064BF2E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				62443410236F6EF7007E1135 /* BeyondUsersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		62579FC1236207750064BF2E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		62579FC22362077B0064BF2E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		62579FC3236207810064BF2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62B713FC236912CD003C8B39 /* BeyondUserTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62579FC4236208100064BF2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62579FC5236209980064BF2E /* BeyondUsers.plist */,
 				62579FAE236206FC0064BF2E /* Main.storyboard */,
 				62579FB1236206FD0064BF2E /* Assets.xcassets */,
 				62579FB3236206FD0064BF2E /* LaunchScreen.storyboard */,
 				62579FB6236206FD0064BF2E /* Info.plist */,
 			);
-			path = GitHubClientAG;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62579FA4236206FC0064BF2E /* GitHubClientAG */ = {
+		62579FA4236206FC0064BF2E /* GitHubClientAS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62579FB9236206FD0064BF2E /* Build configuration list for PBXNativeTarget "GitHubClientAG" */;
+			buildConfigurationList = 62579FB9236206FD0064BF2E /* Build configuration list for PBXNativeTarget "GitHubClientAS" */;
 			buildPhases = (
 				62579FA1236206FC0064BF2E /* Sources */,
 				62579FA2236206FC0064BF2E /* Frameworks */,
@@ -82,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = GitHubClientAG;
+			name = GitHubClientAS;
 			productName = GitHubClientAG;
-			productReference = 62579FA5236206FC0064BF2E /* GitHubClientAG.app */;
+			productReference = 62579FA5236206FC0064BF2E /* GitHubClientAS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 62579FA0236206FC0064BF2E /* Build configuration list for PBXProject "GitHubClientAG" */;
+			buildConfigurationList = 62579FA0236206FC0064BF2E /* Build configuration list for PBXProject "GitHubClientAS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62579FA4236206FC0064BF2E /* GitHubClientAG */,
+				62579FA4236206FC0064BF2E /* GitHubClientAS */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +206,7 @@
 			files = (
 				62579FB5236206FD0064BF2E /* LaunchScreen.storyboard in Resources */,
 				62579FB2236206FD0064BF2E /* Assets.xcassets in Resources */,
+				62579FC6236209980064BF2E /* BeyondUsers.plist in Resources */,
 				62579FB0236206FC0064BF2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62579FAD236206FC0064BF2E /* ViewController.swift in Sources */,
+				62F5AD22238EA2FF00E2A424 /* UserDetailTableViewController.swift in Sources */,
+				62443411236F6EF7007E1135 /* BeyondUsersViewModel.swift in Sources */,
 				62579FA9236206FC0064BF2E /* AppDelegate.swift in Sources */,
+				62579FCA23620E9D0064BF2E /* UsersTableViewController.swift in Sources */,
+				62579FC8236209E60064BF2E /* BeyondUser.swift in Sources */,
 				62579FAB236206FC0064BF2E /* SceneDelegate.swift in Sources */,
+				62B713FD236912CD003C8B39 /* BeyondUserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +369,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADF8VJ5MUJ;
 				INFOPLIST_FILE = GitHubClientAG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.beyondtechnologies.GitHubClientAG;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondtechnologies.GitHubClientAS;
+				PRODUCT_NAME = GitHubClientAS;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,22 +387,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADF8VJ5MUJ;
 				INFOPLIST_FILE = GitHubClientAG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.beyondtechnologies.GitHubClientAG;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondtechnologies.GitHubClientAS;
+				PRODUCT_NAME = GitHubClientAS;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62579FA0236206FC0064BF2E /* Build configuration list for PBXProject "GitHubClientAG" */ = {
+		62579FA0236206FC0064BF2E /* Build configuration list for PBXProject "GitHubClientAS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62579FB7236206FD0064BF2E /* Debug */,
@@ -326,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62579FB9236206FD0064BF2E /* Build configuration list for PBXNativeTarget "GitHubClientAG" */ = {
+		62579FB9236206FD0064BF2E /* Build configuration list for PBXNativeTarget "GitHubClientAS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62579FBA236206FD0064BF2E /* Debug */,

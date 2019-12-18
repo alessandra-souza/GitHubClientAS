@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GitHubClientAG.xcodeproj">
+      location = "self:/Users/alessandrasouza/Downloads/GitHubClientAG - Starter/GitHubClientAS.xcodeproj">
    </FileRef>
 </Workspace>
